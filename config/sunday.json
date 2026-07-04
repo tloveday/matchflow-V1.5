@@ -11,16 +11,22 @@
 
     "groups": {
         "A": [
-            "Team 1",
-            "Team 2",
-            "Team 3",
-            "Team 4"
+            "Aberteifi",
+            "BRACKLA BADGERS JFC",
+            "Brackla Junior FC",
+            "Clarbeston Road AFC",
+            "Llechryd FC",
+            "Penclawdd Blues",
+            "St Dogmaels"
         ],
         "B": [
-            "Team 5",
-            "Team 6",
-            "Team 7",
-            "Team 8"
+            "BRACKLA JFC",
+            "Bow Street AFC",
+            "CPD Crannog FC",
+            "Cardigan Town FC",
+            "Ffostrasol FC",
+            "Newcastle Emlyn FC",
+            "Penclawdd Yellows"
         ]
     }
 },

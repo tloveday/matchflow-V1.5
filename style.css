@@ -746,3 +746,70 @@ footer img{
     transition:opacity .35s ease;
 
 }
+
+#groupsDisplay{
+
+    width:100%;
+    height:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#f2f2f2;
+
+}
+
+.groupsWrapper{
+
+    display:flex;
+
+    gap:40px;
+
+}
+
+.groupCard{
+
+    width:320px;
+
+    background:white;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 4px 14px rgba(0,0,0,.15);
+
+}
+
+.groupHeading{
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:12px;
+
+    font-weight:bold;
+
+    border-bottom:4px solid #d71920;
+
+}
+
+.groupTeam{
+
+    padding:14px 18px;
+
+    border-bottom:1px solid #ececec;
+
+    font-size:1.05rem;
+
+}
+
+.groupTeam:last-child{
+
+    border-bottom:none;
+
+}

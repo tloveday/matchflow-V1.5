@@ -13,6 +13,7 @@ let currentTicker = 0;
 let tickerTimer = null;
 
 const frame = document.getElementById("leagueFrame");
+const groupsDisplay = document.getElementById("groupsDisplay");
 const currentDivision = document.getElementById("currentDivision");
 const nextDivision = document.getElementById("nextDivision");
 const progressBar = document.getElementById("progressBar");
@@ -95,22 +96,39 @@ function showDivision(index) {
     divisionSponsor.textContent =
     division.sponsor || "Cardigan Town FC";
 
-    frame.classList.add("fade-out");
+   if (division.groups) {
 
-   setTimeout(() => {
+    frame.style.display = "none";
+    groupsDisplay.style.display = "block";
+
+    renderGroups(division);
+
+} else {
+
+    frame.style.display = "block";
+    groupsDisplay.style.display = "none";
+
+}
+if (!division.groups) {
 
     frame.classList.add("fade-out");
 
     setTimeout(() => {
 
-        frame.src = division.url;
+        frame.classList.add("fade-out");
 
-        frame.classList.remove("fade-out");
-        frame.classList.add("fade-in");
+        setTimeout(() => {
 
-    }, FADE_DURATION);
+            frame.src = division.url;
 
-}, TRANSITION_DELAY);
+            frame.classList.remove("fade-out");
+            frame.classList.add("fade-in");
+
+        }, FADE_DURATION);
+
+    }, TRANSITION_DELAY);
+
+}
 
     animateProgress(division.duration);
 
@@ -119,6 +137,32 @@ function showDivision(index) {
     showDivision((currentIndex + 1) % divisions.length);
 
 }, (division.duration * 1000) + TRANSITION_DELAY);
+
+}
+
+function renderGroups(division) {
+
+    const groupAList = document.getElementById("groupAList");
+    const groupBList = document.getElementById("groupBList");
+
+    groupAList.innerHTML = "";
+    groupBList.innerHTML = "";
+
+    division.groups.A.forEach(team => {
+
+        groupAList.innerHTML += `
+            <div class="groupTeam">${team}</div>
+        `;
+
+    });
+
+    division.groups.B.forEach(team => {
+
+        groupBList.innerHTML += `
+            <div class="groupTeam">${team}</div>
+        `;
+
+    });
 
 }
 
