@@ -10,7 +10,9 @@
     "sponsor": "Doherty General Builders",
 
     "groups": {
-        "A": [
+    "A": {
+        "pitch": "Home James Pitch",
+        "teams": [
             "Aberteifi",
             "BRACKLA BADGERS JFC",
             "Brackla Junior FC",
@@ -18,9 +20,13 @@
             "Llechryd FC",
             "Penclawdd Blues",
             "St Dogmaels"
-        ],
-        "B": [
-            "BRACKLA JFC",
+        ]
+    },
+
+    "B": {
+        "pitch": "MJ Flooring Pitch",
+        "teams": [
+             "BRACKLA JFC",
             "Bow Street AFC",
             "CPD Crannog FC",
             "Cardigan Town FC",
@@ -29,6 +35,7 @@
             "Penclawdd Yellows"
         ]
     }
+}
 },
         {
             "name": "Under 12",

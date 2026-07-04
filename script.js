@@ -23,6 +23,9 @@ const tournamentDate = document.getElementById("tournamentDate");
 const overlayDivision = document.getElementById("overlayDivision");
 const overlayClock = document.getElementById("overlayClock");
 const afterNextDivision = document.getElementById("afterNextDivision");
+const groupAPitch = document.getElementById("groupAPitch");
+const groupBPitch = document.getElementById("groupBPitch");
+const divisionSponsorCard = document.getElementById("divisionSponsorCard");
 const TRANSITION_DELAY = 200;
 const FADE_DURATION = 250;
 
@@ -148,7 +151,12 @@ function renderGroups(division) {
     groupAList.innerHTML = "";
     groupBList.innerHTML = "";
 
-    division.groups.A.forEach(team => {
+    divisionSponsorCard.textContent = division.sponsor;
+
+    groupAPitch.textContent = division.groups.A.pitch;
+    groupBPitch.textContent = division.groups.B.pitch;
+
+    division.groups.A.teams.forEach(team => {
 
         groupAList.innerHTML += `
             <div class="groupTeam">${team}</div>
@@ -156,7 +164,7 @@ function renderGroups(division) {
 
     });
 
-    division.groups.B.forEach(team => {
+   division.groups.B.teams.forEach(team => {
 
         groupBList.innerHTML += `
             <div class="groupTeam">${team}</div>

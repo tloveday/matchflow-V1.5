@@ -764,13 +764,17 @@ footer img{
 
     display:flex;
 
-    gap:40px;
+    justify-content:center;
+
+    gap:48px;
+
+    width:100%;
 
 }
 
 .groupCard{
 
-    width:320px;
+    width:420px;
 
     background:white;
 
@@ -806,10 +810,118 @@ footer img{
 
     font-size:1.05rem;
 
+    text-align:center;
+
+    text-transform:uppercase;
+
+    font-weight:600;
+
 }
 
 .groupTeam:last-child{
 
     border-bottom:none;
+
+}
+
+.pitchBanner{
+
+    background:#D71920;
+
+    color:white;
+
+    text-align:center;
+
+    padding:10px 12px;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+    letter-spacing:.05em;
+
+    text-transform:uppercase;
+
+}
+
+.pitchBanner span{
+
+    display:block;
+
+    margin-top:4px;
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    letter-spacing:0;
+
+    text-transform:none;
+
+}
+
+.infoCard{
+
+    width:55%;
+
+    margin:24px auto 0;
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 4px 14px rgba(0,0,0,.15);
+
+}
+
+.infoHeading{
+
+    background:#111;
+
+    color:#fff;
+
+    padding:12px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    border-bottom:4px solid #D71920;
+
+    text-align:center;
+
+}
+
+.infoHighlight{
+
+    background:#D71920;
+
+    color:#fff;
+
+    padding:14px 12px;
+
+    text-align:center;
+
+    font-size:1.35rem;
+
+    font-weight:700;
+
+}
+
+.infoBody{
+
+    padding:18px 22px;
+
+    background:#ffffff;
+
+    color:#444;
+
+    font-size:.95rem;
+
+    line-height:1.6;
+
+    text-align:center;
 
 }
