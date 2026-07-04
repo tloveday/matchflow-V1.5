@@ -1,0 +1,30 @@
+{
+    "date": "Saturday 4 July 2026",
+
+    "divisions": [
+        {
+            "name": "Under 6",
+            "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U6",
+            "duration": 20,
+            "sponsor": "Seyrans Pizza"
+        },
+        {
+            "name": "Under 10",
+            "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U10",
+            "duration": 20,
+            "sponsor": "Ultra Clean"
+        },
+        {
+            "name": "Under 13",
+            "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U13",
+            "duration": 20,
+            "sponsor": "Lee's Auto Mechanics"
+        },
+        {
+            "name": "Under 14",
+            "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U14",
+            "duration": 20,
+            "sponsor": "Robert Davies Motors"
+        }
+    ]
+}

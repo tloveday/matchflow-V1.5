@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Match Flow</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+         HEADER
+    =========================================== -->
+
+    <header>
+
+        <div class="header-logo">
+
+    <img
+        src="assets/images/line-logo.png"
+        alt="Match Flow">
+
+</div>
+
+        <div class="header-title">
+
+    <div class="title-block">
+
+        <h1>Cardigan Town FC Football Festival</h1>
+
+        <p id="tournamentDate">Saturday July 4th 2026</p>
+
+    </div>
+
+</div>
+
+        <div class="header-crest">
+
+            <img
+                src="assets/images/cardigan.png"
+                alt="Cardigan Town FC Crest">
+
+        </div>
+
+    </header>
+
+    <!-- ==========================================
+         LIVE FESTIVAL NEWS
+    =========================================== -->
+
+    <section class="ticker-bar">
+
+    <div class="ticker-label">
+
+        MATCH FLOW UPDATE
+
+    </div>
+
+    <div class="ticker-window">
+
+        <div id="tickerText"></div>
+
+    </div>
+
+</section>
+
+    <!-- ==========================================
+         MAIN CONTENT
+    =========================================== -->
+
+    <div class="content">
+
+        <aside>
+
+            <div class="mascot">
+
+                <img
+                    src="assets/images/magpie.png"
+                    alt="Cardigan Town FC Magpie">
+                <div class="mascot-caption">
+
+    <span class="live-dot"></span>
+
+    LIVE FROM CARDIGAN
+
+</div>
+
+            </div>
+
+            <div class="info live-panel">
+
+                <h3 class="live-heading">LIVE</h3>
+
+                <h2 id="currentDivision" class="live-division">
+
+                    Loading...
+
+                </h2>
+
+            </div>
+
+            <div class="info sponsor-card">
+
+    <h3>PROUDLY SUPPORTED BY</h3>
+
+    <h2 id="divisionSponsor">
+
+        Cardigan Town FC
+
+    </h2>
+
+</div>
+
+<div class="info">
+
+    <h3>COMING UP</h3>
+
+    <div class="queue-row">
+
+        <span class="queue-label">NEXT</span>
+
+        <span id="nextDivision">UNDER 11</span>
+
+    </div>
+
+    <div class="queue-row">
+
+        <span class="queue-label">THEN</span>
+
+        <span id="afterNextDivision">UNDER 12</span>
+
+    </div>
+
+</div>
+
+<div class="info">
+
+    <h3>UPDATING...</h3>
+
+    <div class="progress-track">
+
+        <div id="progressBar"></div>
+
+    </div>
+
+</div>
+
+            <div class="mascot">
+
+                <img
+                    src="assets/images/dragon.png"
+                    alt="Match Flow Dragon">
+                <div class="mascot-caption">
+
+    POWERED BY
+
+</div>
+
+            </div>
+
+        </aside>
+
+        <main>
+
+   <div class="display-overlay">
+
+    <div class="overlay-clock" id="overlayClock">
+
+        14:37
+
+    </div>
+
+    <div class="overlay-division" id="overlayDivision">
+
+        UNDER 10
+
+    </div>
+
+</div>
+
+    <iframe
+        id="leagueFrame"
+        title="Tournament Display"
+        loading="eager"
+        allowfullscreen>
+
+    </iframe>
+
+</main>
+
+    </div>
+
+    <footer>
+
+        <img
+            src="assets/images/line-logo.png"
+            alt="Match Flow">
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

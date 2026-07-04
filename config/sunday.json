@@ -1,0 +1,41 @@
+{
+    "date": "Sunday 5 July 2026",
+
+    "divisions": [
+
+        {
+    "name": "Under 8",
+    "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U8",
+    "duration": 20,
+    "sponsor": "Doherty General Builders",
+
+    "groups": {
+        "A": [
+            "Team 1",
+            "Team 2",
+            "Team 3",
+            "Team 4"
+        ],
+        "B": [
+            "Team 5",
+            "Team 6",
+            "Team 7",
+            "Team 8"
+        ]
+    }
+},
+        {
+            "name": "Under 12",
+            "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U12",
+            "duration": 20,
+            "sponsor": "The Cliff Hotel & Spa"
+        },
+        {
+            "name": "Under 16",
+            "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U16",
+            "duration": 20,
+            "sponsor": "Preseli Windows & Doors"
+        }
+
+    ]
+}
