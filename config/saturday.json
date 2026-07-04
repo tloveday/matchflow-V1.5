@@ -6,13 +6,67 @@
             "name": "Under 6",
             "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U6",
             "duration": 20,
-            "sponsor": "Seyrans Pizza"
+            "sponsor": "Seyrans Pizza",
+
+    "groups": {
+    "A": {
+        "pitch": "Chris Jones Construction Pitch",
+        "teams": [
+            "aberaeron AFC",
+            "broadlands tigers (oranges)",
+            "cardigan town fc",
+            "Ffostrasol Whites",
+            "Fishguard Sports AFC"
+        ]
+    },
+
+    "B": {
+        "pitch": "GrowItMowIt Pitch",
+        "teams": [
+             "Aberaeron AFC Yellow",
+            "Cardigan Town Magpies",
+            "crymych oxes",
+            "ffostrasol FC",
+            "milford united AFC"
+        ]
+    }
+}
         },
         {
             "name": "Under 10",
             "url": "https://cardigantownfc.torneopal.com/taso/sarja.php?turnaus=482_0004&sarja=U10",
             "duration": 20,
-            "sponsor": "Ultra Clean"
+            "sponsor": "Ultra Clean",
+
+    "groups": {
+    "A": {
+        "pitch": "Home James Pitch",
+        "teams": [
+            "Cardigan town magpies",
+            "Cardigan Town FC",
+            "clwb cymric A",
+            "cpd aberaeron",
+            "cpd y cadnoid Llanboidy Foxes AFC",
+            "llechryd FC Dreigiau",
+            "Newcastle Emlyn FC",
+            "St Dogmaels"
+        ]
+    },
+
+    "B": {
+        "pitch": "MJ Flooring Pitch",
+        "teams": [
+             "aberaeron AFC",
+            "Aberteifi",
+            "Aberteifi Magpies",
+            "clwb cymric B",
+            "cpd crannog fc",
+            "ffostrasol FC",
+            "llechryd FC",
+            "Pontnewydd AFC Under 10s"
+        ]
+    }
+}
         },
         {
             "name": "Under 13",
