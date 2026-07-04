@@ -753,10 +753,31 @@ footer img{
     height:100%;
 
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+
     align-items:center;
 
-    background:#f2f2f2;
+    padding:1px;
+
+    box-sizing:border-box;
+
+    background:
+    radial-gradient(
+        ellipse at top,
+        rgba(255,255,255,0.95) 0%,
+        rgba(255,255,255,0) 60%
+    ),
+    linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f3f3f3 100%
+    );
+
+    border-radius:8px;
+
+    position:relative;
+
+    overflow:hidden;
 
 }
 
@@ -923,5 +944,55 @@ footer img{
     line-height:1.6;
 
     text-align:center;
+
+}
+
+#groupsDisplay::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:1192px;
+
+    height:1192px;
+
+    left:50%;
+
+    top:45%;
+
+    transform:translate(-50%,-50%) rotate(-32deg);
+
+    border:8px solid rgba(0,0,0,.035);
+
+    border-radius:50%;
+
+    pointer-events:none;
+
+    z-index:0;
+
+}
+
+#groupsDisplay::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:8px;
+
+    height:1600px;
+
+    background:rgba(0,0,0,.03);
+
+    left:50%;
+
+    top:50%;
+
+    transform:translate(-50%,-50%) rotate(-32deg);
+
+    pointer-events:none;
+
+    z-index:0;
 
 }
